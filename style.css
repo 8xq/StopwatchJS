@@ -1,0 +1,74 @@
+body {
+	background-color: slateblue;
+}
+
+.Title h1 {
+	color: white;
+	font-family: 'Kadwa', serif;
+	font-size: 55px;
+	text-align: center;
+	padding: 1px;
+}
+
+.Box {
+	overflow: hidden;
+	min-width: 300px;
+	min-height: 210px;
+	width: 300px;
+	height: 210px;
+	background: rgb(31, 30, 30);
+	border-radius: 15px;
+}
+
+.button {
+	background-color: rgb(255, 187, 0);
+	border: none;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-top: 25px;
+	width: 75%;
+	font-family: 'Abel', sans-serif;
+	border-radius: 5px;
+}
+
+button:active {
+	border-style: outset;
+}
+
+.button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.Timer {
+	display: inline;
+	font-size: 50px;
+}
+
+.Seconds {
+	display: inline;
+	color: white;
+}
+
+.Tens {
+	display: inline;
+	color: white;
+}
+
+.Between {
+	font-size: 50px;
+	display: inline;
+	color: white;
+}
+
+.Minutes {
+	font-size: 50px;
+	display: inline;
+	color: white;
+}
